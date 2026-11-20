@@ -1,0 +1,21 @@
+.portfolio {
+    width: 1200px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+    &-filters-list {
+            display: flex;
+    
+            width: 575px;
+            height: 54px;
+    
+            margin: 0 auto;
+
+            &-item+&-item {
+                    margin-left: 8px;
+                    
+                }
+
+        }
+}

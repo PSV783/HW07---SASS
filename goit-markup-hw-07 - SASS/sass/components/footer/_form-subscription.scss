@@ -1,0 +1,49 @@
+.footer-subscription-form {
+    display: flex;
+    flex-direction: column;
+
+
+    &__title {
+    margin: 0;
+
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: $letterSpacing03;
+    text-transform: $textTransformUp;
+    color: $whiteColorPrimary;  
+    }
+}
+
+.footer-form-fields {
+    display: flex;
+    margin-top: 20px;
+
+    &__item+&__item {
+        margin-left: $marginLeft12;
+    }
+
+    &__label {
+    display: flex;
+    }
+
+    &__email {
+    width: 358px;
+    height: 50px;
+
+    padding-left: 16px;
+
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: $lineHeight125;
+    letter-spacing: $letterSpacing03;
+    color: $whiteColor60;
+
+    border: 1px solid $whiteColor30;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px $boxShadowColor;
+    background-color: $footerBackGroundColor;
+    }
+
+}
+
+

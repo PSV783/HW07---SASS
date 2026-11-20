@@ -1,0 +1,19 @@
+.hero-btn {
+    min-width: 216px;
+
+    margin-top: 30px;
+    padding: 10px 32px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: $lineHeight1875;
+    text-align: $textAlignCenter;
+    letter-spacing: $letterSpacing06;
+
+    color: $whiteColorPrimary;
+    background-color: $blueColorPrimary;
+
+    border: 0px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px $boxShadowColor;
+}

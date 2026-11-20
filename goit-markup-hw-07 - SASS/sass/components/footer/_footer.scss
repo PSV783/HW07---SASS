@@ -1,0 +1,46 @@
+.footer {
+    display: $displayFlex;
+
+    height: 252px;
+    padding: 0 215px;
+
+    background-color: $footerBackGroundColor;
+
+    &-logo {
+            width: 145px;
+            margin-top: 60px;
+        }
+
+    &-contacts {
+                    display: block;
+        
+                    width: 231px;
+                    height: 81px;
+        
+                    margin-top: 20px;
+        
+                    font-style: normal;
+
+
+        &__adress,
+        &__mail,
+        &__phone {
+            height: 21px;
+            margin-bottom: 9px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: $lineHeight1714;
+            letter-spacing: $letterSpacing03;
+            color: $whiteColorPrimary;
+                            }
+
+         &__phone {                                margin: 0px; 
+        }
+         &__font-color {  
+            color: $whiteColor60;
+            text-decoration: $textDecorationNone;
+                   }
+                     }
+                
+
+}

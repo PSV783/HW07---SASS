@@ -1,0 +1,38 @@
+.block-forth {
+    height: 708px;
+
+    margin-bottom: 0;
+
+    background-color: $advantagesCardBackgroundColor;
+
+    &__title {
+        padding-top: 94px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+
+        font-size: 36px;
+        text-align: $textAlignCenter;
+        line-height: $lineHeight1;
+        letter-spacing: $letterSpacing03;
+        color: $blackColorPrimary;
+    }
+
+    &-list {
+        display: flex;
+
+        width: 1200px;
+        height: 428px;
+
+        padding-right: 15px;
+        padding-left: 15px;
+        margin: 0px auto;
+
+        &__item+&__item {
+                margin-left: $listItemMarginLeft30;
+            }
+    }
+
+    
+
+}
+

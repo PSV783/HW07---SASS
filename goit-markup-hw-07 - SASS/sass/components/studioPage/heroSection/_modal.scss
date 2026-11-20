@@ -1,0 +1,49 @@
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+
+    width: 528px;
+    height: 581px;
+
+    background-color: $whiteColorPrimary;
+
+    border-radius: 4px;
+
+    transition: $transition250;
+
+    
+    &-close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 30px;
+    height: 30px;
+
+    margin-top: 8px;
+    margin-right: 8px;
+
+    border: 1px solid rgba(0, 0, 0, 0.102);
+    border-radius: 50%;
+    background-color: $whiteColorPrimary;
+
+          &__svg {
+            width: 11px;
+            height: 11px;
+    
+            margin: auto;
+        }
+
+
+        &:hover .modal-close-btn__svg,
+        &:focus .modal-close-btn__svg {
+            transition: $transition250;
+            fill: $blueColorPrimary;
+        }
+    }   
+}
+
+
+

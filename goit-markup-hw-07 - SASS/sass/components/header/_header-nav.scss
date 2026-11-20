@@ -1,0 +1,73 @@
+.header-nav {
+    width: 285px;
+    height: 16px;
+
+    margin-left: 92px;
+}
+
+.header-nav-list {
+    display: $displayFlex;
+
+    width: 286px;
+    height: 48px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: $lineHeight1;
+    letter-spacing: $letterSpacing02;
+    text-align: $textAlignCenter;
+    color: $blackColorPrimary;
+   
+
+
+             &__item + &__item {
+                margin-left: $listItemMarginLeft50;          
+              }
+
+             &__studio {
+                width: 45px;
+                  position: relative;              
+               
+            }
+
+             &__portfolio {
+                width: 78px;
+            position: relative;
+                }  
+
+             &__contacts{
+                width: 64px; 
+                }
+
+             &__link {
+             text-decoration: $textDecorationNone;
+            color:$blackColorPrimary;
+
+                transition: $transition250;
+             
+                &:hover, &:focus
+              {
+                color: $blueColorPrimary;
+                fill: $blackColorPrimary;
+              }
+
+              
+              }
+                          &__line {
+                             &::after {
+                                display: block;
+                                content: "";
+                                position: absolute;
+            
+                                width: 100%;
+                                height: 4px;
+            
+                                bottom: 0;
+                                left: 0;
+            
+                                background-color: $blueColorPrimary;
+                                border-radius: 2px;
+                             }
+        }
+        
+}

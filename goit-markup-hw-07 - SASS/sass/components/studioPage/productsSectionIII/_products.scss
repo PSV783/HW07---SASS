@@ -1,0 +1,63 @@
+.block-third {
+    width: 1200px;
+    height: 386px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+    &__title {
+            height: 42px;
+    
+            margin: 0 auto 50px;
+    
+            font-size: 36px;
+            text-align: $textAlignCenter;
+            line-height: $lineHeight1;
+            letter-spacing: $letterSpacing03;
+            color: $blackColorPrimary;
+        }
+    
+    &-list {
+            display: flex;
+          
+            
+            & .block-third-list__item+.block-third-list__item {
+                    margin-left: $listItemMarginLeft30;
+                }
+
+                &__position {
+            position: relative;
+            top: 0;
+            left: 0;
+    
+            height: 294px;
+    
+            z-index: -1;
+        }
+    
+        &__text {
+            position: absolute;
+            bottom: 0px;
+            left: 0;
+    
+            height: 70px;
+            width: 100%;
+    
+            font-size: 14px;
+            font-weight: 700;
+            line-height: $lineHeight1;
+            letter-spacing: $letterSpacing03;
+            color: $whiteColorPrimary;
+    
+            text-transform: $textTransformUp;
+            text-align: $textAlignCenter;
+            align-content: center;
+    
+            background-color: $productsBackGroundColor;
+        }
+
+        }
+    
+    
+        
+}

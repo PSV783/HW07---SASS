@@ -1,0 +1,60 @@
+.block-fifth {
+    width: 1200px;
+    height: 184px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+    margin: 94px auto;
+
+    text-align: center;
+
+
+    &__title {
+            height: 42px;
+    
+            margin: 0;
+    
+            font-size: 36px;
+            line-height: $lineHeight1;
+            letter-spacing: var$letterSpacing03;
+            color: $blackColorPrimary;
+        }
+
+                &-list {
+                    display: flex;
+        
+                    margin-top: 50px;
+
+
+                    & &__item+&__item {
+                            margin-left: $listItemMarginLeft30;
+                        }
+
+                    &__client {
+                                                                        display: flex;
+                    width: 170px;
+                    height: 92px;
+                    border: 1px solid $greyColorPrimary;
+                    fill: $greyColorPrimary;
+                    transition: $transition250;
+                                               
+                    &:hover,
+                    &:focus {
+                            border: 1px solid $blueColorPrimary;
+                            fill: $blueColorPrimary;
+                     }
+                    }
+
+                   &__svg {
+                    margin: auto;
+                    transition: $transition250;
+                                                                                                }
+                }
+                              
+}
+
+
+
+
+

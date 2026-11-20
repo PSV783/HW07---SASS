@@ -1,0 +1,43 @@
+.block-second-article {
+    width: 270px;
+    height: 248px;
+
+    &__div {
+        display: flex;
+        align-items: $alignItemsCenter;
+
+        height: 120px;
+
+        background-color: $advantagesCardBackgroundColor;
+    }
+
+    &__icon {
+
+        margin: auto;
+
+    }
+
+    &__title {
+        height: 16px;
+
+        margin-top: 30px;
+        margin-bottom: 10px;
+
+        font-weight: 700;
+        font-size: 14px;
+        line-height: $lineHeight1;
+        letter-spacing: $letterSpacing03;
+        text-transform: $textTransformUp;
+        color: $blackColorPrimary;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: $lineHeight1714;
+        letter-spacing: $letterSpacing03;
+        /* для контексту із текстом - кіколи не використовавати height - має автоматично формуватись. */
+        /* height: 72px; */
+    }
+}
+

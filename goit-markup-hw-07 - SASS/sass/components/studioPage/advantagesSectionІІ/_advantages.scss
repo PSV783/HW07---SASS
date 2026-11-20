@@ -1,0 +1,25 @@
+.block-second {
+    width: 1200px;
+    height: 248px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+    margin: 0 auto;
+
+    &-list {
+            display: flex;
+        }
+
+
+                & .block-second-list__item+.block-second-list__item {
+                    margin-left: 30px;
+                }
+
+
+
+
+
+}
+
+

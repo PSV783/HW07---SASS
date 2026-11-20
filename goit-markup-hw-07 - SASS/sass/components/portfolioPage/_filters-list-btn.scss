@@ -1,0 +1,53 @@
+.portfolio-filters-list-btn {
+    height: 38px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: $lineHeight1625;
+    letter-spacing: $letterSpacing03;
+    text-align: $textAlignCenter;
+
+    border: transparent;
+    border-radius: 4px;
+
+    background-color: $advantagesCardBackgroundColor;
+
+    // transition-property: background-color, color;
+
+    transition: $transition250;
+
+
+                .portfolio-filters-list-item:nth-child(1) & {
+                    min-width: 73px;
+                }
+        
+                .portfolio-filters-list-item:nth-child(2) & {
+                    min-width: 125px;
+                }
+        
+                .portfolio-filters-list-item:nth-child(3) & {
+                    min-width: 112px;
+                }
+        
+                .portfolio-filters-list-item:nth-child(4) & {
+                    min-width: 103px;
+                }
+        
+                .portfolio-filters-list-item:nth-child(5) & {
+                    min-width: 130px;
+        
+                }
+&:hover,
+&:focus {
+    color: $whiteColorPrimary;
+    background-color: $blueColorPrimary;
+    box-shadow:
+        0px 2px 2px 0px #0000001F,
+        0px 1px 2px 0px #00000014,
+        0px 3px 1px 0px #0000001A;
+}
+
+}
+
+
+

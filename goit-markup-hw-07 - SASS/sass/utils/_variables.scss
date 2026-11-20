@@ -1,0 +1,70 @@
+$displayFlex: flex;
+$alignItemsCenter: center;
+
+//colors
+    $blackColorPrimary: #212121;
+    $blueColorPrimary: #2196F3; 
+    $blueColor09:#2196f3e5;
+    $whiteColorPrimary: #FFFFFF;
+    $whiteColor10: #FFFFFF1A;
+    $whiteColor30: #FFFFFF4D;
+    $whiteColor60: #FFFFFF99;
+    $greyColorPrimary: #AFB1B8;
+    $silverColorPimary: #757575;
+
+    $boxShadowColor:#00000026;
+
+    $heroSectionBackGroundPictureColor: #C4C4C4;
+
+    $advantagesCardBackgroundColor: #F5F4FA;
+    $productsBackGroundColor: #2F303ACC;
+
+    $headerBorderBottomColor: #E0E0E0;
+    $footerBackGroundColor: #2F303A;
+    
+  
+// fonts properties
+    $fontFamily: 'Roboto', 'Tahoma', sans-serif;
+
+    $letterSpacing01: 0.01em;
+    $letterSpacing02: 0.02em;
+    $letterSpacing03: 0.03em;
+    $letterSpacing06: 0.06em;
+
+    $lineHeight1: 1;
+    $lineHeight125: 1.25;
+    $lineHeight136: 1.36;
+    $lineHeight1714: 1.714;
+    $lineHeight1625: 1.625;
+    $lineHeight1875: 1.875;
+
+    $textDecorationNone: none;
+    $textAlignCenter: center;
+    $textTransformUp: uppercase;
+
+
+
+//list__item __icon form
+$listItemMarginLeft50: 50px;
+$listItemMarginLeft30: 30px;
+$listItemMarginLeft10: 10px;
+
+$marginTop40: 40px;
+$marginTop12: 12px;
+$marginLeft40: 40px;
+$marginLeft12: 12px;
+$marginRight40: 40px;
+$marginRight10: 10px;
+
+// transition properties
+$transitionDuration250: 250ms;
+$cubicBezier: cubic-bezier(0.4, 0, 0.2, 1);
+
+$transition250: 
+color $transitionDuration250 $cubicBezier,
+fill $transitionDuration250 $cubicBezier,
+opacity $transitionDuration250 $cubicBezier,
+transform $transitionDuration250 $cubicBezier,
+outline $transitionDuration250 $cubicBezier,
+border $transitionDuration250 $cubicBezier,
+background-color $transitionDuration250 $cubicBezier;

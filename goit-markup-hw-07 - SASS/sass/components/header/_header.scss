@@ -1,0 +1,12 @@
+.header {
+    display: $displayFlex;
+    align-items: $alignItemsCenter;
+
+    height: 80px;
+    padding: 0 215px;
+
+    
+    border-bottom: 1px solid $headerBorderBottomColor;
+}
+ 
+

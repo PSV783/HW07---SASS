@@ -1,0 +1,26 @@
+.form-btn {
+    min-width: 200px;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 10px 50px;
+
+    font-size: 16px;
+    line-height: 1.875;
+    color: $whiteColorPrimary;
+
+    border: none;
+    border-radius: 4px;
+    background-color: $blueColorPrimary;
+    box-shadow:
+        0px 4px 4px 0px $boxShadowColor;
+
+
+        &:hover,
+            &:focus {
+                // transition-property: background-color;
+                transition: $transition250;
+                background-color: #188CE8;
+            }
+}

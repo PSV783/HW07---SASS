@@ -1,0 +1,42 @@
+@import "./base/normalize";
+@import "./base/container";
+@import "./base/section";
+@import "./utils/variables.scss";
+
+// @import "./utils/placeholders";
+// @import "./utils/mixins";
+
+@import "./components/header/header";
+@import "./base/logos";
+@import "./components/header/header-nav";
+@import "./components/header/header-contacts";
+
+@import "./components/studioPage/heroSection/hero";
+@import "./components/studioPage/heroSection/hero-title";
+@import "./components/studioPage/heroSection/hero-btn";
+@import './components/studioPage/heroSection/backdrop';
+@import "./components/studioPage/heroSection/modal";
+@import "./components/studioPage/heroSection/form";
+@import "./components/studioPage/heroSection/form-checkbox";
+@import "./components/studioPage/heroSection/form-btn";
+
+@import "./components/studioPage/advantagesSectionІІ/advantages";
+@import "./components/studioPage/advantagesSectionІІ/article";
+
+@import "./components/studioPage/productsSectionIII/products";
+
+@import "./components/studioPage/ourTeamSectionIV/our-team";
+@import "./components/studioPage/ourTeamSectionIV/card";
+
+@import "./components/studioPage/clientsSectionV/clients";
+
+@import "./components/footer/footer";
+@import "./components/footer/social-links";
+@import "./components/footer/subscription-block";
+@import "./components/footer/form-subscription";
+@import "./components/footer/form-subscription-btn";
+
+@import "./components/portfolioPage/portfolio";
+@import "./components/portfolioPage/filters-list-btn";
+@import "./components/portfolioPage/cards-list";
+@import "./components/portfolioPage/cards";

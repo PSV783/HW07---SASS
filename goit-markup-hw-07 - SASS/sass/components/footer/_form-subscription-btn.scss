@@ -1,0 +1,25 @@
+.footer-form-subscription-btn {
+    // width: 200px;
+    // height: 50px;
+
+    padding: 10px 62px 10px 28px;
+
+    font-weight: 700;
+    font-size: 16px;
+    color: $whiteColorPrimary;
+    
+    line-height: $lineHeight1875;
+    letter-spacing: $letterSpacing06;
+
+    border: none;
+    border-radius: 4px;
+    background-color: $blueColorPrimary;
+    box-shadow: 0px 4px 4px 0px $boxShadowColor;
+
+       &__svg {
+        position: absolute;
+
+        margin-top: 3px;
+        margin-left: 10px;
+    }
+}
